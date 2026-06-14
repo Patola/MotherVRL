@@ -1,4 +1,4 @@
-# MotherVR
+# MotherVRL (MotherVR for Linux)
 This is a python patcher for the original Alien: Isolation mod called "MotherVR", which adds VR support to the game Alien: Isolation.
 
 This patch needs that latest version (0.8.1) of the mod, which comprises of a single dxgi.dll. It patches this DLL.
