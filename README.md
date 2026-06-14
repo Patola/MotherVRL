@@ -16,7 +16,7 @@ Click on the picture to watch it on youtube.
 [![Alien: Isolation with patcher MotherVR on Linux](https://img.youtube.com/vi/3E1aKOKClOo/0.jpg)](https://www.youtube.com/watch?v=3E1aKOKClOo)
 
 ## Installation
-Drag the dxgi.dll into your Alien: Isolation game folder. VR should be enabled by default, but if it is not, you can do so in Options->MotherVR after the game starts up.
+Drag/copy the dxgi.dll into your Alien: Isolation game directory. VR should be enabled by default when you run the game under SteamVR, but if it is not, you can do so in Options->MotherVR after the game starts up.
 ## Settings
 Done in the in-game Options menu.
 ## Recalibration
