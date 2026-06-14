@@ -10,7 +10,8 @@ Don't attempt to run this with the native Linux build of Alien: Isolation, it wo
 ## Demo
 
 One hour and a half of gameplay, showing crafting, combat, death, flashlight usage (you have to put the hand on the side of your head for it to work) and other controls to show that the game is fully playable.
-https://youtu.be/3E1aKOKClOo
+
+[![Alien: Isolation with patcher MotherVR on Linux](https://img.youtube.com/vi/3E1aKOKClOo/0.jpg)](https://www.youtube.com/watch?v=3E1aKOKClOo)
 
 ## Installation
 Drag the dxgi.dll into your Alien: Isolation game folder. VR should be enabled by default, but if it is not, you can do so in Options->MotherVR after the game starts up.
