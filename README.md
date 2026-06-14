@@ -11,6 +11,8 @@ Don't attempt to run this with the native Linux build of Alien: Isolation, it wo
 
 One hour and a half of gameplay, showing crafting, combat, death, flashlight usage (you have to put the hand on the side of your head for it to work) and other controls to show that the game is fully playable.
 
+Click on the picture to watch it on youtube.
+
 [![Alien: Isolation with patcher MotherVR on Linux](https://img.youtube.com/vi/3E1aKOKClOo/0.jpg)](https://www.youtube.com/watch?v=3E1aKOKClOo)
 
 ## Installation
