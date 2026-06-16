@@ -13,7 +13,7 @@ One hour and a half of gameplay, showing crafting, combat, death, flashlight usa
 
 Click on the picture to watch it on youtube.
 
-[![Alien: Isolation with patcher MotherVR on Linux](https://img.youtube.com/vi/3E1aKOKClOo/0.jpg)](https://www.youtube.com/watch?v=3E1aKOKClOo)
+[![Alien: Isolation with patcher MotherVR on Linux](alien-isolation-video-thumbnail.jpg)](https://www.youtube.com/watch?v=3E1aKOKClOo)
 
 ## Installation
 Drag/copy the dxgi.dll into your Alien: Isolation game directory. VR should be enabled by default when you run the game under SteamVR, but if it is not, you can do so in Options->MotherVR after the game starts up.
