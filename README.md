@@ -7,6 +7,15 @@ Once the DLL is patched you just drop it in the Alien: Isolation game directory 
 
 Don't attempt to run this with the native Linux build of Alien: Isolation, it won't work.
 
+## Quick install
+`install.sh` does everything below in one step: it downloads MotherVR and GRAND-MotherVR, drops the DLLs (and `grand.ini`) into your game folder, and runs both patchers.
+
+```
+./install.sh "/path/to/Alien Isolation"
+```
+
+The path defaults to `/games/SteamLibrary/steamapps/common/Alien Isolation` if omitted. Add `--with-d3dcompiler` to also install the Microsoft `d3dcompiler_47` (needed by GRAND) into the Proton prefix via protontricks. After it runs, set the launch options it prints (see the GRAND-MotherVR section). The rest of this README explains each piece if you'd rather do it manually.
+
 ## Demo
 
 One hour and a half of gameplay, showing crafting, combat, death, flashlight usage (you have to put the hand on the side of your head for it to work) and other controls to show that the game is fully playable.
