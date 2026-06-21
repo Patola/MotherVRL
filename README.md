@@ -17,6 +17,8 @@ Click on the picture to watch it on youtube.
 
 ## Installation
 Drag/copy the dxgi.dll into your Alien: Isolation game directory. VR should be enabled by default when you run the game under SteamVR, but if it is not, you can do so in Options->MotherVR after the game starts up.
+
+MotherVR by itself needs no special launch options (DXVK already loads `dxgi.dll` as native, so the game-local patched DLL is picked up automatically). If you also use GRAND-MotherVR, see its section below for the required launch option.
 ## Settings
 Done in the in-game Options menu.
 ## Recalibration
@@ -41,8 +43,10 @@ Run both, **in this order**, whenever you update either mod — GRAND's patcher 
 Proton loads its own built-in XInput and ignores the game-local `XINPUT1_3.dll` unless you override it. Add this to the game's Steam launch options:
 
 ```
-WINEDLLOVERRIDES="xinput1_3=n,b" %command%
+WINEDLLOVERRIDES="dxgi=n,b;XINPUT1_3=n,b" %command%
 ```
+
+Only `XINPUT1_3=n,b` is strictly required (the `dxgi=n,b` part is harmless and redundant, since DXVK already loads `dxgi.dll` as native — it's included here just to make the intent explicit). If you want the GRAND log file, append `-log` after `%command%`; it writes `ai-grand.log` to the game folder.
 
 ### 3. Install the real Microsoft HLSL compiler
 GRAND recompiles the game's shaders at runtime, which Wine's built-in `d3dcompiler_47` can't do — it fails and crashes the game. Install the Microsoft version into the game's Proton prefix once (214490 is Alien: Isolation's Steam app id):
